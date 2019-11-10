@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import ShoppingCart from './components/shoppingCart';
+import ItemsList from './components/itemsList';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <ShoppingCart />
+        <ItemsList />
       </div>
     );
   }
