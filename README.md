@@ -1,4 +1,3 @@
-A simple shopping cart created using React, Redux & Material-UI for HackerEarth's front-end challenge.
 
 ## Steps to run it locally:
 
