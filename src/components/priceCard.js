@@ -13,6 +13,7 @@ import '../styles/priceCard.css';
 
 class PriceCard extends Component {
   render() {
+    const { totalItemCount, totalPrice } = this.props;
     return (
       <Card className="price-card">
         <CardContent>
@@ -25,7 +26,7 @@ class PriceCard extends Component {
             variant="h6"
             component="p"
           >
-            Items ({this.props.totalItemCount}) : ${this.props.totalPrice}
+            Items ({totalItemCount}) : ${totalPrice}
           </Typography>
         </CardContent>
 
@@ -38,7 +39,7 @@ class PriceCard extends Component {
           }}
         >
           <Typography variant="body1" component="p">
-            Order Total : ${this.props.totalPrice}
+            Order Total : ${totalPrice}
           </Typography>
         </CardActionArea>
       </Card>
