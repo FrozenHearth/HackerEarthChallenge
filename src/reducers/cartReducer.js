@@ -104,6 +104,7 @@ export default (state = initState, action) => {
         let newTotal = state.totalPrice + updatedPrice;
         return { ...state, totalPrice: newTotal, addedItem: state.addedItem };
       }
+      break;
     case DECREASE_QUANTITY:
       if (action.type === DECREASE_QUANTITY) {
         state.addedItem = state.itemsList.find(item => item.id === action.id);
@@ -113,6 +114,7 @@ export default (state = initState, action) => {
         let newTotal = state.totalPrice - updatedPrice;
         return { ...state, totalPrice: newTotal, addedItem: state.addedItem };
       }
+      break;
     case GET_CART_STATE:
       if (action.type === GET_CART_STATE) {
         state.itemsList = action.items;
@@ -131,6 +133,7 @@ export default (state = initState, action) => {
           totalItems: state.totalItems
         };
       }
+      break;
     case DELETE_ITEM:
       if (action.type === DELETE_ITEM) {
         let newItems = state.itemsList.filter(item => item.id !== action.id);
