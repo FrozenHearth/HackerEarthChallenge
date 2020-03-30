@@ -4,9 +4,9 @@
 
 1. Install [Create React App](https://github.com/facebook/create-react-app).
 
-2. Then clone the repo - type `git clone git@github.com:FrozenHearth/ShoppingCartTest.git` in your command line, if you're using SSH or `git clone https://github.com/FrozenHearth/ShoppingCartTest.git` otherwise.
+2. Then clone the repo using SSH or HTTPS.
 
-3. Run `npm install` to install all the dependencies.
+3. Run `npm install --save` to install all the dependencies.
 
 4. Start the application by running `npm start`.
 
