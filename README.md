@@ -1,6 +1,6 @@
-This app uses React v16, Material-UI, Redux and React-Redux.
+## This app uses React v16, Material-UI, Redux and React-Redux.
 
-## Steps to run it locally:
+# Steps to run it locally:
 
 1. Install [Create React App](https://github.com/facebook/create-react-app).
 
