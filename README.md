@@ -8,7 +8,7 @@
 
 3. Run `npm install --save` to install all the dependencies.
 
-4. Start the application by running `npm start`.
+4. Start the application by running `npm start`
 
 5. The app will be bootstrapped on `localhost:3000` in a new window.
 
