@@ -1,3 +1,4 @@
+This app uses React v16, Material-UI, Redux and React-Redux.
 
 ## Steps to run it locally:
 
