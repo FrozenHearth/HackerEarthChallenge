@@ -1,14 +1,12 @@
 ## This app uses React v16, Material-UI, Redux and React-Redux.
 
-# Steps to run it locally:
+# Steps to run it on your computer:
 
-1. Install [Create React App](https://github.com/facebook/create-react-app).
+1. Clone the repo.
 
-2. Then clone the repo using SSH or HTTPS.
+2. Run `npm install --save` to install all the dependencies.
 
-3. Run `npm install --save` to install all the dependencies.
+3. Bootstrap the application by running `npm start`
 
-4. Start the application by running `npm start`
-
-5. The app will be bootstrapped on `localhost:3000` in a new window.
+4. The app will automatically open on `localhost:3000` in a new window.
 
